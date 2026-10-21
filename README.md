@@ -1,8 +1,13 @@
-# Be the QB — who was open at the throw?
+# Be the QB 🏈
 
-A real NFL play is frozen at the exact frame the ball left the quarterback's hand. The ball is hidden. You pick the receiver you would throw to, then the app reveals how much space each option really had, who the QB chose, and what happened.
+![Be the QB](assets/cover.png)
 
-Over **7,234 pass attempts** (2021, weeks 1–8), NFL quarterbacks threw to the **most open** receiver **31%** of the time, against **22%** if the pick were random. The targeted man had **3.3 yd** of separation, the options left behind **2.6 yd**. By position: when a **RB** is the most open man he gets the ball **52%** of the time, a **WR** only **25%** — the biggest gap is usually the shallowest one. So the most open receiver is not always the best throw.
+**The most open receiver gets the ball only 33% of the time. Could you do better than an NFL quarterback?**
+*Be the QB* drops you into a real 2021 NFL play frozen at the moment of release, with the ball hidden: you pick the WR, TE or RB you'd throw to, then see what Next Gen Stats saw (how open every option was, the QB's real target and the result).
+Unlike the NGS separation stat, which only tracks the target, we measure **every receiver at release** across 3 passes, so you see who the QB passed up, and why open isn't always best (21% by pure chance).
+Broadcasters get a second-screen game that teaches fans to read a defense; scouts get an *open-but-ignored* rate for every skill position.
+
+`pip install -r requirements.txt && streamlit run app.py` · Limits: tracking ends 0.5 s after release, so no catch or YAC data; the target is parsed from the play text.
 
 ## Play it
 
