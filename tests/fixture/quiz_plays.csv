@@ -1,0 +1,3 @@
+gameId,playId,offense,defense,quarter,down,yardsToGo,los_x,first_down_x,coverage,passResult,yards,target_nflId,most_open_nflId,description
+2021090900,137,DAL,NYG,2,3,7,45.0,52.0,zone,C,14,100007,100009,(8:12) D.Prescott pass short right to C.Lamb to NYG 41 for 14 yards (A.Jackson).
+2021091200,212,KC,LV,4,2,10,60.0,70.0,man,IN,0,200007,200010,(2:45) P.Mahomes pass deep right intended for T.Hill INTERCEPTED by T.Mullen at LV 18.

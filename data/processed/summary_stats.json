@@ -1,0 +1,36 @@
+{
+  "n_passes": 7234,
+  "most_open_rate": 0.3053635609621233,
+  "random_baseline": 0.2224587595613308,
+  "median_sep_target": 3.3237027495568783,
+  "median_sep_others": 2.6227180556022867,
+  "by_target_position": {
+    "WR": {
+      "n": 4383,
+      "most_open_rate": 0.24503764544832307
+    },
+    "TE": {
+      "n": 1567,
+      "most_open_rate": 0.2935545628589662
+    },
+    "RB": {
+      "n": 1223,
+      "most_open_rate": 0.5249386753883892
+    }
+  },
+  "by_coverage": {
+    "man": {
+      "n": 2083,
+      "most_open_rate": 0.29236677868458955
+    },
+    "zone": {
+      "n": 4776,
+      "most_open_rate": 0.3075795644891122
+    }
+  },
+  "open_but_ignored_by_position": {
+    "WR": 0.6751361161524501,
+    "TE": 0.6805555555555556,
+    "RB": 0.7297979797979798
+  }
+}

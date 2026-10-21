@@ -1,0 +1,22 @@
+{
+  "_comment": "FAKE values. Fixture only, so the app can run before src/build_dataset.py has produced data/processed/. Never use these numbers in the README.",
+  "n_passes": 2,
+  "most_open_rate": 0.0,
+  "random_baseline": 0.2,
+  "median_sep_target": 2.15,
+  "median_sep_others": 2.65,
+  "by_target_position": {
+    "WR": {"n": 2, "most_open_rate": 0.0},
+    "TE": {"n": 0, "most_open_rate": 0.0},
+    "RB": {"n": 0, "most_open_rate": 0.0}
+  },
+  "by_coverage": {
+    "man": {"n": 1, "most_open_rate": 0.0},
+    "zone": {"n": 1, "most_open_rate": 0.0}
+  },
+  "open_but_ignored_by_position": {
+    "WR": 0.0,
+    "TE": 1.0,
+    "RB": 1.0
+  }
+}

@@ -1,0 +1,4 @@
+data/raw/
+data/processed/receivers.csv
+__pycache__/
+.DS_Store
